@@ -1,0 +1,221 @@
+@font-face {
+	font-family:'BentonSansRegular';
+	src: url('BentonSansRegular.eot') format('eot'), 
+		 url('BentonSansRegular.eot?#iefix') format('eot'), 
+	     url('BentonSansRegular.otf')  format('opentype'),
+	     url('BentonSansRegular.woff') format('woff'), 
+	     url('BentonSansRegular.ttf')  format('truetype'),
+	     url('BentonSansRegular.svg#BentonSans-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'BentonSansBlack';
+	src: url('BentonSansBlack.eot') format('eot'), 
+		 url('BentonSansBlack.eot?#iefix') format('eot'), 
+	     url('BentonSansBlack.otf')  format('opentype'),
+	     url('BentonSansBlack.woff') format('woff'), 
+	     url('BentonSansBlack.ttf')  format('truetype'),
+	     url('BentonSansBlack.svg#BentonSans-Black') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+* {
+  font-family:'BentonSansRegular';
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  background-color: #dce7eb;
+  color: #292C42;
+}
+
+.voltcontent {
+  width:350px;
+  background-color: #dce7eb;
+  display: block;
+  position: absolute;
+  margin-left: -175px;
+  padding-right: 30px;
+  left: 81%;
+  margin-top:0px;}
+
+.logo {
+   position:absolute;
+   bottom:0;
+   width:350px;
+   height:60px;   /* Height of the footer */
+   margin-left: -175px;
+   left: 81%;}
+
+p.intro {
+  font-size: 23px;
+  line-height: 30px;
+  margin: 1em 0;
+  font-family:'BentonSansBlack';
+  color: #292C42;
+  font-weight: 700;
+  text-align:justify;
+  margin-bottom:20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align:justify;
+-webkit-text-size-adjust: 90%;
+}
+ul .inner {
+  padding-left: 30px;
+  overflow: hidden;
+  display: none;
+  list-style: none;
+  line-height:22px;
+  font-size:14px;
+  font-weight:300;
+-webkit-text-size-adjust: 80%;
+}
+ul .inner.show {
+  /*display: block;*/
+}
+
+ul li {
+  margin: 0.8em 0;
+}
+ul li a.toggle {
+  width: 200px;
+  display: block;
+  background: #dce7eb;
+  color: #292C42;
+  padding-bottom: 0.7em;
+  border-radius: 0 ;
+  transition: background 0.3s ease;
+  font-size:18px;
+  font-weight:200;
+}
+ul li a.toggle:hover {
+  background: #dce7eb;
+}
+
+ul li .copy {
+  line-height:22px;
+  font-size:14px;
+  font-weight:300;
+-webkit-text-size-adjust: 80%;
+}
+li .copy::before {
+  color: #D34660;  
+  font-size:14px;
+  content: "\002B"; /* Unicode of character to precede the list item */
+  padding-right: 8px; 
+  position: relative;
+  top: 0em; 
+}
+
+a:link {
+  color: #D34660;
+  text-decoration:none;
+}
+a:visited {
+  color: #D34660;
+}
+a:hover {
+  color: #D34660;
+  text-decoration: none;
+}
+a:active {
+  color: #D34660;
+}
+
+@media only screen and (max-width: 900px) {
+body {
+  background-color: #dce7eb;
+  color: #292C42;
+  font-family:'BentonSansRegular';
+  font-weight: 400;
+  margin: 20px;
+  padding: 0;
+  background-color: #dce7eb;
+  color: #292C42;
+  width:100%;
+}
+
+.voltcontent {
+  width:300px;
+  position: absolute;
+  margin-left: -150px;
+  left: 50%;
+  margin-top:0px;
+}
+
+.logo {
+   position:absolute;
+   bottom:0;
+   width:300px;
+   height:66px;   /* Height of the footer */
+   margin-left: -150px;
+   left: 50%;
+}
+
+p.intro {
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "BentonSansBlack", sans-serif;
+  color: #292C42;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align:justify;
+-webkit-text-size-adjust: 90%;
+}
+ul .inner {
+  padding-left: 30px;
+  overflow: hidden;
+  display: none;
+  list-style: none;
+  line-height:20px;
+  font-size:13px;
+  font-weight:300;
+-webkit-text-size-adjust: 80%;
+}
+ul .inner.show {
+  /*display: block;*/
+}
+
+ul li {
+  margin: 0.8em 0;
+}
+ul li a.toggle {
+  width: 200px;
+  display: block;
+  background: #dce7eb;
+  color: #292C42;
+  padding-bottom: 0.7em;
+  border-radius: 0 ;
+  transition: background 0.3s ease;
+  font-size:15px;
+  font-weight:200;
+}
+ul li a.toggle:hover {
+  background: #dce7eb;
+}
+
+ul li .copy {
+  line-height:20px;
+  font-size:13px;
+  font-weight:300;
+-webkit-text-size-adjust: 80%;
+}
+li .copy::before {
+  color: #D34660;  
+  font-size:13px;
+  content: "\002B"; /* Unicode of character to precede the list item */
+  padding-right: 8px; 
+  position: relative;
+  top: 0em; 
+}
+}
