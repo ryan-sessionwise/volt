@@ -70,6 +70,11 @@ body {
     font-size: 14px;
     color: #0b2633;
     display: block;
+    transition: color 0.2s;
+}
+
+#footer-menu a:hover {
+    color: #2ea0be;
 }
 
 .voltcontent {
