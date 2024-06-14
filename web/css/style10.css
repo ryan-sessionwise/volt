@@ -79,7 +79,7 @@ body {
 
 .voltcontent {
     grid-column: 2;
-    max-width: 350px;
+    max-width: 325px;
     background-color: #eaf3f3;
     display: block;
     margin-top: 0px;
@@ -87,7 +87,7 @@ body {
 
 .logo {
     display: block;
-    width: 350px;
+    width: 325px;
     height: auto;
 }
 
