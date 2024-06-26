@@ -249,7 +249,7 @@ a:active {
     }
 }
 
-@media only screen and (max-width: 1024.98px) {
+@media only screen and (max-width: 1280.98px) {
     #site-footer {
         padding-bottom: 6rem;
     }
