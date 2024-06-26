@@ -249,10 +249,13 @@ a:active {
     }
 }
 
-@media only screen and (max-width: 767.98px) {
-    body {
-        min-height: 90vh;
+@media only screen and (max-width: 1024.98px) {
+    #site-footer {
+        padding-bottom: 6rem;
     }
+}
+
+@media only screen and (max-width: 767.98px) {
     #site-content {
         padding-top: 1.25rem;
     }
@@ -260,6 +263,9 @@ a:active {
     #site-footer {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+    #site-footer {
+        padding-bottom: 7rem;
     }
     .logo {
         order: 0;
